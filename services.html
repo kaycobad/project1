@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" ">
+    <meta name="description" content="Computer Systems Inc. offers professional computer repair services, IT support, networking solutions, and technology consulting to help businesses stay connected and secure."><!-- added relevant site description-->
+    <meta name="keywords" content="Computer Repair Services, IT Support, Networking Solutions, Technology Consulting, Business IT Services ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=1.0, minimum-scale-1.0"> <!--made viewpoint width equal to the device width -->
+    <link rel="stylesheet" href="css/default_style.css"><!--included media query that detects when device is larger than 900px-->
+    <link rel="stylesheet" href="css/tablet_style.css" media="screen and (min-width: 451px) and (max-width: 899px)"><!--added a media query to link that will load for any device that is smaller than 900px-->
+    <link rel="stylesheet" href="css/mobile_style.css" media="screen and (max-width: 450px)"> <!-- set the mobile stylesheet to only load on mobile devices.-->
+<!--This setup ensures that each stylesheet is applied to the correct range of devices, preventing any overlap or conflicts between the mobile and tablet styles-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li class="right"><a href="#">Schedule an Appointment</a></li>
+                </ul>
+            </nav>
+            <h1>Computer Systems Inc.</h1>
+            
+        </header>
+        <main>
+            <div class="card">
+                <img src="\images\computer.png" alt="Computer Diagnostic & Repair" >
+                <h3>Computer Diagnostic & Repair</h3>
+                <p>We can evaluate your PCs to provide: physical cleaning, malware and antivirus solutions, hard drive replacement, and data recovery.</p>
+            </div>
+            <div class="card">
+                <img src="\images\presentation.png" alt="Business Consultation" >
+                <h3>Business Consultation</h3>
+                <p>We will work with you to find custom solutions for your office set-up design including network, servers, phones, and internet solutions.</p>
+            </div>
+            <div class="card">
+                <img src="\images\cloud-data.png" alt="Secure Cloud Backup" >
+                <h3>Secure Cloud Backup</h3>
+                <p>We take care of cloud backup solutions for our customers, including free support, and built-in spam and virus scan filters.</p>
+            </div><!--added three separate DIV elements with information provided-->
+        </main>
+        <footer>
+            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>
+                Copyright by &copy; 2023</small></p>
+        </footer>
+    </div> 
+</body>
+</html>
